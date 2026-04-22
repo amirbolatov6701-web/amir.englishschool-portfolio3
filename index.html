@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FluentAI — Learn English the Smart Way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="logo-dot"></span>FluentAI
+      </a>
+      <ul class="nav__links">
+        <li><a href="#path">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="#" class="btn btn--ghost">Log in</a>
+        <a href="#cta" class="btn btn--primary">Start Free</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#path">How It Works</a>
+      <a href="#features">Features</a>
+      <a href="#results">Results</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#cta" class="btn btn--primary">Start Free</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__inner container">
+
+        <!-- Left -->
+        <div class="hero__content reveal">
+          <div class="hero__badge">
+            <span class="badge__dot"></span>
+            Now with AI speaking coach
+          </div>
+          <h1 class="hero__headline">
+            Learn English<br />
+            <span class="gradient-text">the Smart Way</span>
+          </h1>
+          <p class="hero__sub">
+            Personalised lessons, live practice, and AI feedback — all in one place.
+            Go from beginner to confident speaker faster than you thought possible.
+          </p>
+          <div class="hero__actions">
+            <a href="#cta" class="btn btn--primary btn--lg ripple">Start Learning</a>
+            <a href="#path" class="btn btn--outline btn--lg">
+              <span class="btn__play">▶</span> See How It Works
+            </a>
+          </div>
+          <div class="hero__social-proof">
+            <div class="avatars">
+              <img src="https://i.pravatar.cc/32?img=1" alt="student" />
+              <img src="https://i.pravatar.cc/32?img=2" alt="student" />
+              <img src="https://i.pravatar.cc/32?img=3" alt="student" />
+              <img src="https://i.pravatar.cc/32?img=4" alt="student" />
+            </div>
+            <p><strong>2,400+</strong> learners joined this month</p>
+          </div>
+        </div>
+
+        <!-- Right — dashboard illustration -->
+        <div class="hero__visual reveal reveal--right">
+          <div class="dashboard">
+            <div class="dashboard__header">
+              <div class="dashboard__dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="dashboard__title">My Learning Dashboard</span>
+            </div>
+
+            <div class="dashboard__streak">
+              <div class="streak__icon">🔥</div>
+              <div>
+                <p class="streak__label">Daily Streak</p>
+                <p class="streak__count">14 days</p>
+              </div>
+              <div class="streak__badge">+50 XP</div>
+            </div>
+
+            <div class="dashboard__progress-block">
+              <div class="progress-item">
+                <span>Speaking</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="78" style="width:0%"></div>
+                </div>
+                <span class="progress-pct">78%</span>
+              </div>
+              <div class="progress-item">
+                <span>Vocabulary</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="62" style="width:0%"></div>
+                </div>
+                <span class="progress-pct">62%</span>
+              </div>
+              <div class="progress-item">
+                <span>Grammar</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="91" style="width:0%"></div>
+                </div>
+                <span class="progress-pct">91%</span>
+              </div>
+            </div>
+
+            <div class="dashboard__lesson">
+              <div class="lesson-card">
+                <div class="lesson-card__icon">🎙️</div>
+                <div>
+                  <p class="lesson-card__title">AI Speaking Session</p>
+                  <p class="lesson-card__sub">Today · 15 min</p>
+                </div>
+                <button class="lesson-card__play">▶</button>
+              </div>
+            </div>
+
+            <div class="dashboard__words">
+              <div class="word-chip">persevere</div>
+              <div class="word-chip word-chip--new">eloquent ✨</div>
+              <div class="word-chip">pragmatic</div>
+            </div>
+
+            <!-- floating badges -->
+            <div class="float-badge float-badge--tl">
+              <span>🏆</span> B2 Achieved!
+            </div>
+            <div class="float-badge float-badge--br">
+              <span>⚡</span> +120 XP Today
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- decorative blobs -->
+      <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ===================== LOGOS ===================== -->
+    <section class="logos container reveal">
+      <p class="logos__label">Trusted by learners preparing for</p>
+      <div class="logos__strip">
+        <span>IELTS</span>
+        <span>TOEFL</span>
+        <span>Cambridge B2/C1</span>
+        <span>TOEIC</span>
+        <span>Duolingo English Test</span>
+        <span>Business English</span>
+      </div>
+    </section>
+
+    <!-- ===================== LEARNING PATH ===================== -->
+    <section class="path section" id="path">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">How It Works</span>
+          <h2>Your path from zero to <span class="gradient-text">fluency</span></h2>
+          <p>Four clear stages. One personalised journey.</p>
+        </div>
+
+        <div class="path__steps">
+
+          <div class="step-card reveal" data-step="01">
+            <div class="step-card__icon">🧭</div>
+            <h3>Placement Test</h3>
+            <p>A 10-minute adaptive test maps your exact level across speaking, reading, and grammar.</p>
+            <div class="step-card__connector"></div>
+          </div>
+
+          <div class="step-card reveal" data-step="02">
+            <div class="step-card__icon">🗺️</div>
+            <h3>Personal Plan</h3>
+            <p>AI builds a week-by-week curriculum around your goals, schedule, and weak spots.</p>
+            <div class="step-card__connector"></div>
+          </div>
+
+          <div class="step-card reveal" data-step="03">
+            <div class="step-card__icon">🎙️</div>
+            <h3>Live Practice</h3>
+            <p>Join small-group live sessions and AI conversation drills that feel like real talk.</p>
+            <div class="step-card__connector"></div>
+          </div>
+
+          <div class="step-card reveal" data-step="04">
+            <div class="step-card__icon">📈</div>
+            <h3>Progress Tracking</h3>
+            <p>Weekly reports show exactly what improved and what to tackle next. No guessing.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES ===================== -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Features</span>
+          <h2>Everything you need to <span class="gradient-text">actually speak</span></h2>
+          <p>Not just another app. A complete English acceleration system.</p>
+        </div>
+
+        <div class="features__grid">
+
+          <div class="feat-card feat-card--wide reveal float">
+            <div class="feat-card__icon" style="background: linear-gradient(135deg,#2563EB22,#7C3AED22)">🤖</div>
+            <h3>AI Speaking Practice</h3>
+            <p>Our conversational AI gives real-time pronunciation feedback and corrects grammar on the fly — available 24/7 so you can practice at 2 AM.</p>
+            <div class="feat-card__demo">
+              <div class="audio-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <span class="feat-card__demo-label">Listening…</span>
+            </div>
+          </div>
+
+          <div class="feat-card reveal float" style="--delay:0.1s">
+            <div class="feat-card__icon" style="background: linear-gradient(135deg,#F59E0B22,#EF444422)">👥</div>
+            <h3>Live Small-Group Lessons</h3>
+            <p>4–6 students per class. Real teachers. Real conversations. Zero intimidation.</p>
+          </div>
+
+          <div class="feat-card reveal float" style="--delay:0.2s">
+            <div class="feat-card__icon" style="background: linear-gradient(135deg,#10B98122,#2563EB22)">📊</div>
+            <h3>Weekly Progress Analytics</h3>
+            <p>Know exactly where you improved. Charts, insights, and a recommended focus for next week.</p>
+          </div>
+
+          <div class="feat-card reveal float" style="--delay:0.15s">
+            <div class="feat-card__icon" style="background: linear-gradient(135deg,#7C3AED22,#F59E0B22)">🎮</div>
+            <h3>Gamified Vocabulary</h3>
+            <p>Earn XP, unlock levels, challenge friends. Learning 20 new words a day has never felt this addictive.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== JOURNEY ===================== -->
+    <section class="journey section" id="journey">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Student Experience</span>
+          <h2>Watch your English <span class="gradient-text">transform</span></h2>
+          <p>Most students reach conversational fluency within 6 months.</p>
+        </div>
+
+        <div class="journey__track reveal">
+          <div class="journey__step journey__step--active">
+            <div class="journey__node">
+              <span>A1–A2</span>
+            </div>
+            <div class="journey__label">
+              <strong>Beginner</strong>
+              <p>Build core vocabulary, master pronunciation basics, start short conversations.</p>
+            </div>
+          </div>
+
+          <div class="journey__line">
+            <div class="journey__line-fill" id="journeyLine"></div>
+          </div>
+
+          <div class="journey__step">
+            <div class="journey__node">
+              <span>B1–B2</span>
+            </div>
+            <div class="journey__label">
+              <strong>Intermediate</strong>
+              <p>Discuss opinions, handle work emails, join group conversations with ease.</p>
+            </div>
+          </div>
+
+          <div class="journey__line">
+            <div class="journey__line-fill" id="journeyLine2"></div>
+          </div>
+
+          <div class="journey__step">
+            <div class="journey__node">
+              <span>C1</span>
+            </div>
+            <div class="journey__label">
+              <strong>Confident Speaker</strong>
+              <p>Present ideas, debate, pass IELTS 7+, thrive in international workplaces.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- testimonial inline -->
+        <div class="journey__quote reveal">
+          <img src="https://i.pravatar.cc/56?img=12" alt="Aigerim" />
+          <blockquote>
+            "I went from A2 to B2 in 7 months. The AI practice sessions were a game changer — I could speak without freezing for the first time."
+            <cite>— Aigerim, 24 · Kazakhstan</cite>
+          </blockquote>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== RESULTS ===================== -->
+    <section class="results section" id="results">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Results</span>
+          <h2>Numbers that <span class="gradient-text">speak for themselves</span></h2>
+        </div>
+
+        <div class="results__grid">
+          <div class="stat-card reveal">
+            <span class="stat-card__number" data-target="12400">0</span>
+            <span class="stat-card__suffix">+</span>
+            <p>Students Trained</p>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-card__number" data-target="47">0</span>
+            <span class="stat-card__suffix"></span>
+            <p>Countries Reached</p>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-card__number" data-target="1" data-decimal="1">0.0</span>
+            <span class="stat-card__suffix"> pts</span>
+            <p>Avg. IELTS Band Improvement</p>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-card__number" data-target="94">0</span>
+            <span class="stat-card__suffix">%</span>
+            <p>Students Recommend Us</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== COMMUNITY ===================== -->
+    <section class="community section" id="community">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Community</span>
+          <h2>Learn with a <span class="gradient-text">global tribe</span></h2>
+          <p>Speaking clubs, marathons, weekly challenges — never learn alone.</p>
+        </div>
+      </div>
+
+      <!-- Horizontal scroll strip (full-bleed) -->
+      <div class="community__scroll-wrap">
+        <div class="community__track" id="communityTrack">
+
+          <div class="club-card">
+            <div class="club-card__emoji">🌍</div>
+            <h4>Global Speaking Club</h4>
+            <p>Weekly Zoom calls with students from 20+ countries. Every Thursday, 19:00 UTC.</p>
+            <span class="club-card__tag">Free</span>
+          </div>
+
+          <div class="club-card">
+            <div class="club-card__emoji">🏃</div>
+            <h4>Speaking Marathon</h4>
+            <p>30-day challenge: speak 10 minutes every day. Community accountability built in.</p>
+            <span class="club-card__tag">Challenge</span>
+          </div>
+
+          <div class="club-card">
+            <div class="club-card__emoji">📖</div>
+            <h4>Book Club</h4>
+            <p>Read one English book a month. Live discussion every last Sunday.</p>
+            <span class="club-card__tag">Pro</span>
+          </div>
+
+          <div class="club-card">
+            <div class="club-card__emoji">🎯</div>
+            <h4>Weekly Vocabulary Race</h4>
+            <p>Learn 100 words in 7 days. Leaderboard, prizes, peer competition.</p>
+            <span class="club-card__tag">Free</span>
+          </div>
+
+          <div class="club-card">
+            <div class="club-card__emoji">💼</div>
+            <h4>Business English Circle</h4>
+            <p>Presentations, negotiations, emails. Weekly workshop for professionals.</p>
+            <span class="club-card__tag">Pro</span>
+          </div>
+
+          <div class="club-card">
+            <div class="club-card__emoji">🎤</div>
+            <h4>Debate Club</h4>
+            <p>Argue for and against. Sharpen argumentation and spontaneous speech.</p>
+            <span class="club-card__tag">Intensive</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="community__nav container">
+        <button class="comm-btn" id="commPrev" aria-label="Previous">←</button>
+        <button class="comm-btn" id="commNext" aria-label="Next">→</button>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Stories</span>
+          <h2>Real students. <span class="gradient-text">Real results.</span></h2>
+        </div>
+
+        <div class="testi__slider">
+          <div class="testi__track" id="testiTrack">
+
+            <div class="testi-card">
+              <div class="testi-card__stars">★★★★★</div>
+              <blockquote>"I passed IELTS 7.5 after 5 months of FluentAI. The AI speaking coach fixed habits I had for years."</blockquote>
+              <div class="testi-card__author">
+                <img src="https://i.pravatar.cc/40?img=5" alt="Nursultan" />
+                <div>
+                  <strong>Nursultan K.</strong>
+                  <span>Kazakhstan · IELTS 7.5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-card__stars">★★★★★</div>
+              <blockquote>"I used to freeze when speaking. After 3 months the group sessions made me confident enough to present at work."</blockquote>
+              <div class="testi-card__author">
+                <img src="https://i.pravatar.cc/40?img=9" alt="Fatima" />
+                <div>
+                  <strong>Fatima A.</strong>
+                  <span>UAE · Business English</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-card__stars">★★★★★</div>
+              <blockquote>"The gamification is genius. I check in every single day because it just feels like a game. My vocab doubled in 60 days."</blockquote>
+              <div class="testi-card__author">
+                <img src="https://i.pravatar.cc/40?img=15" alt="David" />
+                <div>
+                  <strong>David M.</strong>
+                  <span>Brazil · General English</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card">
+              <div class="testi-card__stars">★★★★★</div>
+              <blockquote>"Worth every penny. The personal plan adapted when I fell behind. It never felt one-size-fits-all."</blockquote>
+              <div class="testi-card__author">
+                <img src="https://i.pravatar.cc/40?img=22" alt="Lin" />
+                <div>
+                  <strong>Lin W.</strong>
+                  <span>China · TOEFL Prep</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testi__controls">
+            <button class="testi-btn" id="testiPrev" aria-label="Previous">←</button>
+            <div class="testi__dots" id="testiDots"></div>
+            <button class="testi-btn" id="testiNext" aria-label="Next">→</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== PRICING ===================== -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Pricing</span>
+          <h2>Simple, transparent <span class="gradient-text">plans</span></h2>
+          <p>No hidden fees. Cancel anytime.</p>
+        </div>
+
+        <div class="pricing__toggle reveal">
+          <span id="toggleMonthly" class="toggle-label toggle-label--active">Monthly</span>
+          <div class="toggle-switch" id="billingToggle" role="switch" aria-checked="false" tabindex="0">
+            <div class="toggle-thumb"></div>
+          </div>
+          <span id="toggleAnnual" class="toggle-label">Annual <em class="savings-badge">Save 25%</em></span>
+        </div>
+
+        <div class="pricing__grid">
+
+          <!-- Starter -->
+          <div class="price-card reveal">
+            <div class="price-card__header">
+              <span class="price-card__tier">Starter</span>
+              <div class="price-card__amount">
+                <span class="price" data-monthly="19" data-annual="14">$19</span>
+                <span class="price-period">/mo</span>
+              </div>
+            </div>
+            <ul class="price-card__features">
+              <li>✓ AI speaking practice (30 min/day)</li>
+              <li>✓ Placement test</li>
+              <li>✓ Personal learning plan</li>
+              <li>✓ Vocabulary gamification</li>
+              <li>✓ Community access</li>
+              <li class="muted">✗ Live group lessons</li>
+              <li class="muted">✗ Weekly analytics report</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--full">Get Started</a>
+          </div>
+
+          <!-- Pro (highlighted) -->
+          <div class="price-card price-card--pro reveal">
+            <div class="price-card__popular">Most Popular</div>
+            <div class="price-card__header">
+              <span class="price-card__tier">Pro</span>
+              <div class="price-card__amount">
+                <span class="price" data-monthly="39" data-annual="29">$39</span>
+                <span class="price-period">/mo</span>
+              </div>
+            </div>
+            <ul class="price-card__features">
+              <li>✓ Everything in Starter</li>
+              <li>✓ Unlimited AI speaking</li>
+              <li>✓ 4 live group lessons/mo</li>
+              <li>✓ Weekly progress report</li>
+              <li>✓ Speaking clubs access</li>
+              <li>✓ Priority support</li>
+              <li class="muted">✗ 1-on-1 lessons</li>
+            </ul>
+            <a href="#cta" class="btn btn--primary btn--full">Start Pro</a>
+          </div>
+
+          <!-- Intensive -->
+          <div class="price-card reveal">
+            <div class="price-card__header">
+              <span class="price-card__tier">Intensive</span>
+              <div class="price-card__amount">
+                <span class="price" data-monthly="79" data-annual="59">$79</span>
+                <span class="price-period">/mo</span>
+              </div>
+            </div>
+            <ul class="price-card__features">
+              <li>✓ Everything in Pro</li>
+              <li>✓ 4 live 1-on-1 lessons/mo</li>
+              <li>✓ IELTS/TOEFL exam track</li>
+              <li>✓ Essay & writing feedback</li>
+              <li>✓ Dedicated success coach</li>
+              <li>✓ Certificate on completion</li>
+              <li>✓ Job interview prep</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--full">Go Intensive</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-section section" id="cta">
+      <div class="container">
+        <div class="cta-block reveal">
+          <div class="cta-block__glow" aria-hidden="true"></div>
+          <span class="section-tag">Free Trial</span>
+          <h2>Start speaking English<br /><span class="gradient-text">with confidence</span> today</h2>
+          <p>Join 12,400+ learners. No credit card required.</p>
+          <a href="#" class="btn btn--primary btn--xl ripple">Book Free Trial Lesson</a>
+          <p class="cta-block__note">30-minute session · Instant booking · No obligations</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo">
+          <span class="logo-dot"></span>FluentAI
+        </a>
+        <p>The smart English learning platform for ambitious learners everywhere.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h5>Product</h5>
+        <a href="#">Features</a>
+        <a href="#">How It Works</a>
+        <a href="#">Pricing</a>
+        <a href="#">Roadmap</a>
+      </div>
+      <div class="footer__col">
+        <h5>Company</h5>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer__col">
+        <h5>Support</h5>
+        <a href="#">Help Center</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2026 FluentAI. All rights reserved.</p>
+      <p>Built with ❤️ for learners worldwide.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
